@@ -3,6 +3,9 @@ from flask import request
 from PIL import Image, ImageDraw
 import face_recognition
 import numpy as np
+import sys
+sys.path.insert(1, '/Users/hoanggia/Desktop/AI/server python/services/')
+
 import action
 
 app = Flask(__name__)

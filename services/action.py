@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 import face_recognition
 import numpy as np
-import base64
+# import base64
 import cv2
 
 
@@ -71,6 +71,6 @@ def detectImage(imageToDetect):
                   fill=(255, 255, 255, 255))
     pil_image.show()
 
-    my_string = base64.b64encode(pil_image.tobytes())
+    # my_string = base64.b64encode(pil_image.tobytes())
 
     return "thanh cong"
